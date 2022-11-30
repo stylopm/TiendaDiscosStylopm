@@ -1,4 +1,14 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import { Outlet } from "react-router-dom";
+
 const Container = () => {
-    return <h1> Container</h1>
-}
+  return (
+    <>
+      <Header />
+        <Outlet />
+      <Footer />
+    </>
+  );
+};
 export default Container;

@@ -2,12 +2,9 @@ import Nav from 'react-bootstrap/Nav';
 
 const Footer = () => {
     return (
-        <Nav
-          activeKey="/home"
-          onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        >
-          <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+        <Nav  className="justify-content-center" variant="dark">
+          <Nav.Item >
+            <Nav.Link href="/">Active</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">Link</Nav.Link>

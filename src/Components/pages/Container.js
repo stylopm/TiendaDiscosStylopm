@@ -5,10 +5,12 @@ import { Outlet } from "react-router-dom";
 const Container = () => {
   return (
     <>
-      <Header />
+      <div className="container-page container">
+        <Header />
         {/* Inserta cada pagina dependiendo de la navegación */}
-        <Outlet /> 
-      <Footer />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 };

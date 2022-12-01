@@ -1,4 +1,12 @@
+import Carrusel from "./../shared/Carrusel";
+import Jumbotron from "./../shared/Jumbotron";
+
 const Home = () => {
-    return <h1> EL contenido de mi pagina en el HOme</h1>
-}
+  return (
+    <>
+      <Carrusel />
+      <Jumbotron />
+    </>
+  );
+};
 export default Home;

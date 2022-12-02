@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { db } from "./../../Config/firebase";
 
-const imagen = "TiendaDiscosStylopm/img/album.jpg";
-
 const Carrusel = () => {
   const [newsSite, setNewsSite] = useState([]);
 

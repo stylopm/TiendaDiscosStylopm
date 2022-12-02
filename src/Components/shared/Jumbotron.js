@@ -1,6 +1,24 @@
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
+import { useEffect, useState } from "react";
+
 import Card from "react-bootstrap/Card";
+import { db } from "./../../Config/firebase";
 
 const Jumbotron = () => {
+  const [newSite, setNewSite] = useState([]);
+
+  useEffect(() => {
+    const q = query(collection(db, "new"), orderBy("img", "desc"));
+    onSnapshot(q, (querySnapshot) => {
+      setNewSite(
+        querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          data: doc.data(),
+        }))
+      );
+    });
+  }, []);
+  
   return (
     <Card style={{ width: "100%" }}>
       <Card.Body>

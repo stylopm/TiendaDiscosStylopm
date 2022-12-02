@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.557e299f.css",
-    "main.js": "/static/js/main.e0c78b44.js",
-    "static/js/787.24bd264d.chunk.js": "/static/js/787.24bd264d.chunk.js",
-    "index.html": "/index.html",
-    "main.557e299f.css.map": "/static/css/main.557e299f.css.map",
-    "main.e0c78b44.js.map": "/static/js/main.e0c78b44.js.map",
-    "787.24bd264d.chunk.js.map": "/static/js/787.24bd264d.chunk.js.map"
+    "main.css": "/TiendaDiscosStylopm/static/css/main.557e299f.css",
+    "main.js": "/TiendaDiscosStylopm/static/js/main.028e0d69.js",
+    "static/js/787.24bd264d.chunk.js": "/TiendaDiscosStylopm/static/js/787.24bd264d.chunk.js",
+    "index.html": "/TiendaDiscosStylopm/index.html",
+    "main.557e299f.css.map": "/TiendaDiscosStylopm/static/css/main.557e299f.css.map",
+    "main.028e0d69.js.map": "/TiendaDiscosStylopm/static/js/main.028e0d69.js.map",
+    "787.24bd264d.chunk.js.map": "/TiendaDiscosStylopm/static/js/787.24bd264d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.557e299f.css",
-    "static/js/main.e0c78b44.js"
+    "static/js/main.028e0d69.js"
   ]
 }

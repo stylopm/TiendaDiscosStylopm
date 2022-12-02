@@ -17,7 +17,6 @@ const Formu = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // console.log(inputs);
     try {
       const linksRef = collection(db, "contacts");
       const res = await addDoc(linksRef, inputs);
